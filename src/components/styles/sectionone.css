@@ -1,0 +1,60 @@
+.container2{
+    width: 100%;
+    
+}
+.wrapper{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.txt{
+    color: white;
+    background-color: black;
+    font-size: 130px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.txt::before{
+    content: '{L}';
+    position: absolute;
+    mix-blend-mode: difference;
+    filter: blur(1px);
+}
+
+.neon-wrapper{
+    display: inline-flex;
+    filter: brightness(200%);
+    overflow: hidden;
+}
+
+.gradient{
+    background: linear-gradient(113.5001723098901deg, rgb(217, 48, 251) 5.736111111111111%,rgba(23, 142, 203,1) 96.29166666666666%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.dodge{
+    background: radial-gradient(circle,white,black 35%) center / 25% 25%;
+    position: absolute;
+    top:-100%;
+    left:-100%;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: color-dodge;
+    animation: dodge-area 4s linear infinite;
+}
+
+@keyframes dodge-area {
+    to {
+        transform: translate(50%,50%);
+    }
+}

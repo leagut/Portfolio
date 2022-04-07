@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    padding: 15px;
+    padding-left: 30px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(113.5001723098901deg, rgb(199, 90, 226) 50.736111111111111%,rgb(111, 9, 245) 96.29166666666666%);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: Caveat;
+}
+
