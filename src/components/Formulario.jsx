@@ -7,11 +7,10 @@ export default function ContactUs() {
 
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm('gmailteste', 'template_lat4php', e.target, 'user_BLg80uyyFXNabuj2m8IGP')
+        emailjs.sendForm('service_z43g5f8', 'template_seos02q', e.target, 'DHI_IkfKWcJN8q7_K')
         .then((result) => {
-            alert("Mensagem enviada com sucesso! ");
-        
+            alert("Mensaje enviado con exito! 👍");
+    
         }, (error) => {
             alert(error.message)
             
@@ -23,28 +22,28 @@ export default function ContactUs() {
     return(
         <div>
             <div className="containerr44">
-            <h2 className="titl">Contato</h2>
-            <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        
-                        <div className="col-lg-8 col-sm-12 form-group mx-auto">
-                            <label>Nome</label>
-                            <input type="text" autoFocus className="form-control colorin"  required placeholder="none" name="name"/>
-                        </div>
-                        <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
-                        <label>Email</label>
-                            <input type="email" className="form-control" required placeholder="Seu email" name="email"/>
-                        </div>
+                <h2 className="titl">Contacto</h2>
+                    <form onSubmit={sendEmail}>
+                        <div className="row pt-5 mx-auto">
+                            
+                            <div className="col-lg-8 col-sm-12 form-group mx-auto">
+                                <label>Nombre</label>
+                                <input type="text" autoFocus className="form-control colorin"  required placeholder="nombre" name="name"/>
+                            </div>
+                            <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto ">
+                            <label>Email</label>
+                                <input type="email" className="form-control colorin" required placeholder="Su email" name="email"/>
+                            </div>
 
-                        <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
-                        <label>Mensagem</label>
-                            <textarea className="form-control" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
+                            <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto ">
+                            <label >Mensaje</label>
+                                <textarea className="form-control colorin" id="" cols="3" rows="8" required placeholder="pueded dar una descripcion" name="message"></textarea>
+                            </div>
+                            <div className="col-lg-8 col-sm-12 pt-3 mx-auto ">
+                                <input type="submit" className="btn btn-info colorin" value="Enviar mensaje"></input>
+                            </div>
                         </div>
-                        <div className="col-lg-8 col-sm-12 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Enviar mensagem"></input>
-                        </div>
-                    </div>
-                </form>
+                    </form>
             </div>
         </div>
     )
