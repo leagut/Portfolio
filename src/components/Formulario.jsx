@@ -8,11 +8,10 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('service_z43g5f8', 'template_seos02q', e.target, 'DHI_IkfKWcJN8q7_K')
-
+        emailjs.sendForm('gmailteste', 'template_lat4php', e.target, 'user_BLg80uyyFXNabuj2m8IGP')
         .then((result) => {
-            alert("Mensagem enviada com sucesso! 👍");
-    
+            alert("Mensagem enviada com sucesso! ");
+        
         }, (error) => {
             alert(error.message)
             
@@ -22,31 +21,30 @@ export default function ContactUs() {
 
     }
     return(
-        <div className="con">
-            <div className="container21">
-                <div className="barra2"></div>
-                <h2>Contacto</h2>
-                <form onSubmit={sendEmail}>
-                        <div >
-                            
-                            <div >
-                                <label>Nombre</label>
-                                <input type="text" autoFocus className="form-control" required placeholder="Nombre" name="name"/>
-                            </div>
-                            <div >
-                            <label>Email</label>
-                                <input type="email" className="form-control" required placeholder="Su email" name="email"/>
-                            </div>
-
-                            <div >
-                            <label>Mensaje</label>
-                                <textarea id="" cols="30" rows="8" required placeholder="Detalle sus requerimientos o consulta" name="message"></textarea>
-                            </div>
-                            <div >
-                                <input type="submit" className="btn btn-info" value="Enviar mensaje"></input>
-                            </div>
+        <div>
+            <div className="containerr44">
+            <h2 className="titl">Contato</h2>
+            <form onSubmit={sendEmail}>
+                    <div className="row pt-5 mx-auto">
+                        
+                        <div className="col-lg-8 col-sm-12 form-group mx-auto">
+                            <label>Nome</label>
+                            <input type="text" autoFocus className="form-control colorin"  required placeholder="none" name="name"/>
                         </div>
-                    </form>
+                        <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
+                        <label>Email</label>
+                            <input type="email" className="form-control" required placeholder="Seu email" name="email"/>
+                        </div>
+
+                        <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
+                        <label>Mensagem</label>
+                            <textarea className="form-control" id="" cols="30" rows="8" required placeholder="Sua mensagem" name="message"></textarea>
+                        </div>
+                        <div className="col-lg-8 col-sm-12 pt-3 mx-auto">
+                            <input type="submit" className="btn btn-info" value="Enviar mensagem"></input>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     )

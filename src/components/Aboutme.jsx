@@ -5,7 +5,7 @@ import im from '../images/ventana.JPG'
 const Aboutme = () => {
   
   return (
-    <div className='container-about'>
+    <div className='container-about2'>
 
 
       

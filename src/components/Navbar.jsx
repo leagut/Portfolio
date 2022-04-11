@@ -4,7 +4,7 @@ import './styles/navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='container'>
+    <div className='containerr1'>
         <span>Leandro</span>
     </div>
   )

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Sectionone from './components/Sectionone';
 import Tecnologies from './components/Tecnologies';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   

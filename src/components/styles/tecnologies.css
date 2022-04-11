@@ -1,6 +1,6 @@
 .container-tecnologies{
     width: 100%;
-    
+    background-color: black;
     min-height: 450px;
     max-height: 525px;
     display: flex;
