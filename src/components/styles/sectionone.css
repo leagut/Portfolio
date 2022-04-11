@@ -90,14 +90,16 @@ li{
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 
 
 
 .active{
-    background-color: rgb(201, 12, 201);
+    
+    border-bottom: 1px solid rgb(20, 162, 197);
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(20, 163, 189);
     padding: 10px 10px;
     text-decoration: none;
     border-radius:  5px 5px 0px  0px;
