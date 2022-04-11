@@ -1,40 +1,53 @@
-import React from 'react'
-   
-import emailjs from 'emailjs-com';
-export default class Formulario extends React.Component {
-  render() {
-      function enviarEmail(e){
+import emailjs from "emailjs-com";
+import React from 'react';
+import './styles/formulario.css'
+
+export default function ContactUs() {
+
+
+    function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_z43g5f8', 'template_seos02q', e.target, 'DHI_IkfKWcJN8q7_K')
-        .then(function(response) {
+    emailjs.sendForm('service_z43g5f8', 'template_seos02q', e.target, 'DHI_IkfKWcJN8q7_K')
 
-            console.log('SUCCESS!', response.status, response.text);
-
-        }, function(error) {
-            console.log('FAILED...', error);
+        .then((result) => {
+            alert("Mensagem enviada com sucesso! 👍");
+    
+        }, (error) => {
+            alert(error.message)
+            
         });
-      }
+        e.target.reset()
 
-    return (
 
-        <div name='contact' >
-        <form id="myForm" onSubmit={enviarEmail}>
-        <div className='pb-8'>
-        <p className="text-4xl font-bold text-[#023047]">Contact</p>
-        </div>
-        <input  name='name'  required/>
-        <input  type="email" placeholder='Email' name='email' invalid  required/>
-        <textarea  name="message" rows="10" placeholder='Message'required></textarea>
-        <button>
-        LET'S COLLABORATE
-        </button>
-        </form>
+    }
+    return(
+        <div className="con">
+            <div className="container21">
+                <div className="barra2"></div>
+                <h2>Contacto</h2>
+                <form onSubmit={sendEmail}>
+                        <div >
+                            
+                            <div >
+                                <label>Nombre</label>
+                                <input type="text" autoFocus className="form-control" required placeholder="Nombre" name="name"/>
+                            </div>
+                            <div >
+                            <label>Email</label>
+                                <input type="email" className="form-control" required placeholder="Su email" name="email"/>
+                            </div>
+
+                            <div >
+                            <label>Mensaje</label>
+                                <textarea id="" cols="30" rows="8" required placeholder="Detalle sus requerimientos o consulta" name="message"></textarea>
+                            </div>
+                            <div >
+                                <input type="submit" className="btn btn-info" value="Enviar mensaje"></input>
+                            </div>
+                        </div>
+                    </form>
+            </div>
         </div>
     )
-        
-        
-        
-}
-
 }
