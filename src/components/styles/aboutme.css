@@ -14,7 +14,8 @@
 .logo{
     width: 25%;
     min-width: 207px;
-    border-radius: 13%;
+    border-radius: 5%;
+    border: rgb(255, 255, 255) solid 2px;
 }
 
 .text{
@@ -32,7 +33,3 @@
     background-color: rgb(225, 182, 243);
 }
 
-.barra{
-    width: 100%;
-    border: 1px solid seagreen;
-}
