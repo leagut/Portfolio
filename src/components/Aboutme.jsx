@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/aboutme.css'
-import im from '../images/ventana.svg'
+import im from '../images/ventana.JPG'
 
 const Aboutme = () => {
   

@@ -11,15 +11,18 @@
 }
 
 .size{
-    width: 100px;
-    height: 100px;
+    
     margin: 10px;
+}
+
+.iconn{
+    color: rgb(209, 84, 209);
+    font-size: 70px;
 }
 
 @media screen and (max-width:674px){
     .size{
-        width: 100px;
-        height: 100px;
+        
         margin: 10px;
     }
     .container-tecnologies{
@@ -28,20 +31,38 @@
     }
 }
 
-@media screen and (min-width:800px){
+@media screen and (min-width:700px){
     .size{
         margin: 20px;
     }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:850px){
     .size{
         margin: 30px;
     }
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1000px){
     .size{
         margin: 50px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .size{
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .size{
+        margin: 70px;
+    }
+}
+
+@media screen and (min-width:1400px){
+    .size{
+        margin: 70px;
     }
 }
