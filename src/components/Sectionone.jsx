@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Sectionone = () => {
   return (
     <div className='container2'>
+        
         <div class="wrapper">
             <div class="neon-wrapper">
                 <span class="txt">&#123;L&#125;</span>
