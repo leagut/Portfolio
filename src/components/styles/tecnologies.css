@@ -11,13 +11,21 @@
 }
 
 .size{
-    
+    transition: transform .2s;
     margin: 10px;
 }
+
 
 .iconn{
     color: rgb(209, 84, 209);
     font-size: 70px;
+    transition: transform .2s;
+}
+
+
+.iconn:hover{
+    transform: scale(1.5);
+    color: rgb(40, 238, 238);
 }
 
 @media screen and (max-width:674px){
