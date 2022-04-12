@@ -11,12 +11,14 @@
     justify-content: center;
     margin: 10px;
     color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
     padding: 10px;
 }
 
 .linkk{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(7, 159, 219);
+    background-color: aliceblue;
     border: 1px solid seashell;
     padding: 8px;
     width: 100PX;
@@ -24,4 +26,10 @@
     margin-top: 5px;
     display: flex;
     justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.paparra{
+    margin-top: 30px;
 }

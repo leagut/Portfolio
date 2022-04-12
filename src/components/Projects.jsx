@@ -8,7 +8,7 @@ const Projects = () => {
     {
         id: 1,
         name: "Burguer",
-        tecnologias: "react js css html",
+        tecnologias: "React js css html",
         category: "web",
         img:require("../images/projects/burguer.JPG"),
         linki:"https://store-burguer.vercel.app/",
@@ -17,7 +17,7 @@ const Projects = () => {
     {
         id: 2,
         name: "Dom",
-        tecnologias: "js css html",
+        tecnologias: "Js css html",
         category: "web",
         img:require("../images/projects/tocando.JPG"),
         linki:"https://jfj1972.github.io/clonpiano/video.html",
@@ -26,7 +26,7 @@ const Projects = () => {
     {
         id: 3,
         name: "Réplica web",
-        tecnologias: "js css html",
+        tecnologias: "Js css html",
         category: "web",
         img:require("../images/projects/replica.JPG"),
         linki:"https://leagut.github.io/unosinr/#uno",
@@ -35,7 +35,7 @@ const Projects = () => {
     {
         id: 4,
         name: "Covimap",
-        tecnologias: "js css react html",
+        tecnologias: "Js css  html",
         category: "web",
         img:require("../images/projects/covid.JPG"),
         linki:"https://jfj1972.github.io/clonpiano/video.html",
@@ -44,7 +44,7 @@ const Projects = () => {
     {
         id: 5,
         name: "Todo List",
-        tecnologias: "js css react mongo",
+        tecnologias: "Js css React mongo",
         category: "web",
         img:require("../images/projects/todo.JPG"),
         linki:"https://todolisto2121.herokuapp.com/",

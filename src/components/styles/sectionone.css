@@ -17,7 +17,7 @@
 .txt{
     color: white;
     background-color: black;
-    font-size: 130px;
+    font-size: 170px;
     font-weight: bold;
     font-family: Arial,sans-serif;
     
@@ -99,10 +99,9 @@ li{
     
     border-bottom: 1px solid rgb(20, 162, 197);
     font-weight: bold;
-    color: rgb(20, 163, 189);
+    color: aqua;
     padding: 10px 10px;
     text-decoration: none;
-   
     
 }
 
@@ -112,3 +111,20 @@ li{
     font-weight: bold;
 }
 
+.titles2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(102, 154, 252);
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 410px;
+    font-style: italic;
+    color: aqua;
+}
