@@ -49,6 +49,15 @@ const Projects = () => {
         img:require("../images/projects/todo.JPG"),
         linki:"https://todolisto2121.herokuapp.com/",
         
+    },
+    {
+        id: 5,
+        name: "Breaking Bad",
+        tecnologias: "React css  html",
+        category: "web",
+        img:require("../images/projects/break.JPG"),
+        linki:"https://breaking-delta.vercel.app/",
+        
     }
   ]
 
