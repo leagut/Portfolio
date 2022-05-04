@@ -10,7 +10,7 @@ const Aboutme = () => {
 
       
       <div className='text'>
-      Mi nombre es Leandro Gutierrez Scarpetta, tengo 31 años y me considero una persona muy curiosa, creativa y autodidacta. Mi tecnología favorita para desarrollar es React soportado en el stack MERN. Mi objetivo primordial es desarrollar soluciones tecnológicas que generen un gran impacto en la sociedad aplicando mis conocimientos y creatividad con el desarrollo de software.
+      Mi nombre es Leandro Gutierrez y me considero una persona muy curiosa, creativa y autodidacta. Mi tecnología favorita para desarrollar es React soportado en el stack MERN. Mi objetivo primordial es desarrollar soluciones tecnológicas que generen un gran impacto en la sociedad y en la compañia donde este trabajando, aplicando mis conocimientos y creatividad con el desarrollo de software.
       </div>
 
     
