@@ -37,7 +37,7 @@ export default function ContactUs() {
 
                             <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto ">
                             <label >Mensaje</label>
-                                <textarea className="form-control  bg-dark" id="" cols="3" rows="8" required placeholder="pueded dar una descripcion" name="message"></textarea>
+                                <textarea className="form-control  bg-dark" id="" cols="3" rows="8" required placeholder="puede dar una descripcion" name="message"></textarea>
                             </div>
                             <div className="col-lg-8 col-sm-12 pt-3 mx-auto ">
                                 <input type="submit" className="btn btn-secondary " value="Enviar mensaje"></input>
