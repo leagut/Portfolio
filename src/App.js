@@ -3,7 +3,7 @@ import './App.css';
 import Aboutme from './components/Aboutme';
 import Contac from './components/Contac';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+
 import Projects from './components/Projects';
 import Sectionone from './components/Sectionone';
 import Tecnologies from './components/Tecnologies';
@@ -13,7 +13,7 @@ function App() {
   
     return (
       <BrowserRouter>
-        <Navbar />
+        
         <Sectionone/>
         <Routes>
           <Route path='/' element={<Aboutme />} />
