@@ -10,7 +10,8 @@ const Aboutme = () => {
 
       
       <div className='text'>
-      Mi nombre es Leandro Gutierrez y me considero una persona muy curiosa, creativa y autodidacta. Mi tecnología favorita para desarrollar es React soportado en el stack MERN. Mi objetivo primordial es desarrollar soluciones tecnológicas que generen un gran impacto en la sociedad y en la compañia donde este trabajando, aplicando mis conocimientos y creatividad con el desarrollo de software.
+      ¡Hola!,Soy Leandro, me considero una persona muy curiosa y creativa. Mi ambiente favorito de desarrollo es el MERN, mi objetivo primordial es crear soluciones que generen una plusvalía donde trabaje y hacia sus clientes. Cuento con habilidades en metodología scrum y gestión de proyectos junto con un pensamiento creativo y catalizador de ideas con el cual puedo enriquecer los grupos donde trabajo.
+
       </div>
 
     
