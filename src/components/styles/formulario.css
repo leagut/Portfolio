@@ -7,6 +7,7 @@
 
 .titl{
     color: rgb(199, 80, 247);
+    margin-left: 120px;
 }
 
 .container21{
@@ -26,7 +27,9 @@
 .containerr44{
     background-color: rgb(0, 0, 0);
     color: azure;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+    /* margin-top: 40px; */
+    padding-top: 50px;
 }
 
 .colorin{
