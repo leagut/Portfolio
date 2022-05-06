@@ -1,0 +1,20 @@
+.contact22{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ici2{
+    font-size: 50px;
+    color: rgb(27, 252, 252);
+    
+}
+
+
+.ici2:hover{
+    transform: scale(1.5);  
+    color: rgb(218, 78, 199);
+}

@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Sectionone from './components/Sectionone';
 import Tecnologies from './components/Tecnologies';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Contact2 from './components/Contact2';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
           <Route path='/*' element={<Aboutme />} />
         </Routes>
         <Contac/>
+        <Contact2/>
         <Footer/>
       </BrowserRouter>
     );

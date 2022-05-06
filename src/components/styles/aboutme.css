@@ -15,7 +15,7 @@
     width: 20%;
     min-width: 207px;
     border-radius: 5%;
-    border: rgb(20, 162, 197) solid 2px;
+    border: rgb(128, 219, 255) solid 2px;
 
 }
 
@@ -25,14 +25,14 @@
     min-width: 250px;
     max-width: 462px;
     height: auto;
-    border: 1px solid rgb(155, 76, 158);
+    border: 1px solid rgb(89, 172, 250);
     border-radius: 10px;
     color: rgb(0, 0, 0);
     padding: 20px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
     margin-bottom: 10px;
-    background-color: rgb(225, 182, 243);
+    background-color: rgb(211, 125, 248);
 }
 
 
