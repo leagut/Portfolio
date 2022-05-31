@@ -1,6 +1,7 @@
 .imagen{
     width: 200px;
     height: 150px;
+    border-radius: 5px;
 }
 
 .cardd{
@@ -13,6 +14,8 @@
     color: aliceblue;
     font-family: 'Quicksand', sans-serif;
     padding: 10px;
+    border-radius: 5px;
+    
 }
 
 .linkk{

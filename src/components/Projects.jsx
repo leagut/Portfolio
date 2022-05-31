@@ -25,11 +25,11 @@ const Projects = () => {
     },
     {
         id: 3,
-        name: "Réplica web",
-        tecnologias: "Js css html",
+        name: "Veterinaria",
+        tecnologias: "React css html",
         category: "web",
         img:require("../images/projects/replica.JPG"),
-        linki:"https://leagut.github.io/unosinr/#uno",
+        linki:"https://citas-react-liard.vercel.app/",
         
     },
     {
