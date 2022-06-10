@@ -7,11 +7,11 @@ const Projects = () => {
   const works = [
     {
         id: 1,
-        name: "Burguer",
+        name: "Presupuesto",
         tecnologias: "React js css html",
         category: "web",
-        img:require("../images/projects/burguer.JPG"),
-        linki:"https://store-burguer.vercel.app/",
+        img:require("../images/projects/presu.png"),
+        linki:"https://presupuesto2.vercel.app/",
         
     },
     {
