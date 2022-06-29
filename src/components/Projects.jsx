@@ -58,7 +58,15 @@ const Projects = () => {
         img:require("../images/projects/break.JPG"),
         linki:"https://breaking-delta.vercel.app/",
         
-    }
+    },{
+      id: 6,
+      name: "Buscador de Gifs",
+      tecnologias: "React",
+      category: "web",
+      img:require("../images/projects/gif.bmp"),
+      linki:"https://gifs-leo.vercel.app/",
+      
+  }
   ]
 
 
