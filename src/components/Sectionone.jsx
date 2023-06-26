@@ -16,7 +16,7 @@ const Sectionone = () => {
         <div className='titles2'>
           <h4>Hi,  i'm</h4>
           <h1>Leandro Gutierrez</h1>
-          <h4>Fronted Developer</h4>
+          <h4>Backend Developer</h4>
         </div>
         <div className='bottons'>
             <ul>
