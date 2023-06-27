@@ -10,7 +10,7 @@ const Aboutme = () => {
 
       
       <div className='text'>
-      ¡Hola!  Soy Leo, me considero una persona muy curiosa y creativa. Mi ambiente favorito de desarrollo es el MERN, mi objetivo primordial es crear soluciones que generen una plusvalía donde trabajo y hacía sus clientes. Cuento con habilidades en metodología scrum y gestión de proyectos junto con un pensamiento creativo y consolidador de ideas con el cual puedo enriquecer los grupos donde trabajo.
+      ¡Hola! Soy Leo, un desarrollador con gusto por el backend, curioso y creativo, siempre con ganas de aprender cosas nuevas. Mi objetivo principal es generar soluciones de valor tanto para la empresa en la que trabajo como para sus clientes. Tengo habilidades en metodología Scrum y un pensamiento consolidador de ideas que enriquece los equipos con los que colaboro.
 
       </div>
 
